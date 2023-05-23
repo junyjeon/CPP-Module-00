@@ -7,15 +7,23 @@
 
 # include <iostream>
 # include <string>
+# include <iomanip>
 
-class phonebook{
+class PhoneBook{
 private:
+	char book[];
 	char *first_name;
 	char *last_name;
 	char *nickname;
 	char *phone_number;
 	char *darkest_secret;
 public:
+	PhoneBook()
+	{}
+	~PhoneBook()
+	{
+
+	}
 	void	add(){
 
 	}
