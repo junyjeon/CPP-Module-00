@@ -1,14 +1,12 @@
-NAME		=	megaphone
+NAME		=	MegaPhone
 
 CC			=	clang++
 CFLAGS		=	-Wall -Wextra -Werror -std=c++98
 CFLAGS		+=	-fsanitize=address
 
-INC_DIR		=	.
-
 BUILD_DIR	=	bulid
 
-SRC		=	megaphone.cpp
+SRC		=	MegaPhone.cpp
 OBJ		=	$(patsubst %.c, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)

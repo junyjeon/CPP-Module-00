@@ -1,4 +1,4 @@
-NAME		=	phonebook
+NAME		=	PhoneBook
 
 CC			=	clang++
 CFLAGS		=	-Wall -Wextra -Werror -std=c++98
@@ -8,7 +8,7 @@ INC_DIR		=	.
 
 BUILD_DIR	=	bulid
 
-SRC		=	phonebook.cpp
+SRC		=	PhoneBook.cpp
 OBJ		=	$(patsubst %.c, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)
