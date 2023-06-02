@@ -1,20 +1,20 @@
 NAME		=	PhoneBook
 
 CC			=	clang++
-CFLAGS		=	-Wall -Wextra -Werror -std=c++98
-CFLAGS		+=	-fsanitize=address
+CFLAGS		=	-std=c++98 -Wall -Wextra -Werror
+CFLAGS		+=	-fsanitize=address -g
 
 INC_DIR		=	.
 
 BUILD_DIR	=	bulid
 
-SRC		=	PhoneBook.cpp
+SRC		=	PhoneBook.cpp Contact.cpp
 OBJ		=	$(patsubst %.c, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)
 
 $(NAME): $(OBJ)
-	@$(CC) $(CFLAGS) -o $@ $^
+	@$(CC) $(CFLAGS) -I$(INC_DIR) -o $@ $^
 	@echo "$(GREEN)SUCCESS!$(END)"
 
 $(BUILD_DIR)/%.o: %.c | mkdir
