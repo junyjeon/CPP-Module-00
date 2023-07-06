@@ -35,4 +35,4 @@ re: fclean
 	@$(MAKE)
 	@echo "$(GREEN)Cleaned and rebuilt everything for phonebook!${END}"
 
-.PHONY: all clean fclean re mkdi
+.PHONY: all clean fclean re mkdir
