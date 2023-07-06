@@ -10,10 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//
-// Created by jjy84 on 2023-05-23(023).
-//
-
 #ifndef CPP00_MEGAPHONE_H
 # define CPP00_MEGAPHONE_H
 # include <iostream>

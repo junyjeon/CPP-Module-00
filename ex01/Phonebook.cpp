@@ -1,6 +1,3 @@
-//
-// Created by jjy84 on 2023-05-23(023).
-//
 #include "PhoneBook.hpp"
 
 void	PhoneBook::show_all(){

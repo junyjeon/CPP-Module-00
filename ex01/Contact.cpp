@@ -1,8 +1,4 @@
-//
-// Created by jjy84 on 2023-05-31(031).
-//
-
-#include "contact.hpp"
+#include "Contact.hpp"
 
 void	Contact::display(){
 	std::cout << "first_name: " << this->first_name << std::endl;

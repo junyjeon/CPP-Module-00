@@ -1,7 +1,3 @@
-//
-// Created by jjy84 on 2023-05-23(023).
-//
-
 #ifndef PHONEBOOK_HPP
 # define PHONEBOOK_HPP
 
