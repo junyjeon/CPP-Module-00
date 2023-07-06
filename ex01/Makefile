@@ -8,7 +8,7 @@ INC_DIR		=	.
 
 BUILD_DIR	=	bulid
 
-SRC		=	PhoneBook.cp Contact.cpp
+SRC		=	PhoneBook.cpp Contact.cpp
 OBJ		=	$(patsubst %.c, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)
