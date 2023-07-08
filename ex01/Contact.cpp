@@ -1,5 +1,9 @@
 #include "Contact.hpp"
 
+Contact::Contact() {}
+
+Contact::~Contact() {}
+
 void	Contact::display() {
 	std::cout << "first_name: " << this->first_name << std::endl;
 	std::cout << "last_name: " << this->last_name << std::endl;

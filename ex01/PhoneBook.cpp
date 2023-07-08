@@ -1,5 +1,9 @@
 #include "PhoneBook.hpp"
 
+PhoneBook::PhoneBook() : idx(0) {}
+
+PhoneBook::~PhoneBook() {}
+
 void	PhoneBook::show_all() {
 	std::cout << std::right;
 	std::cout << std::setw(10) << "index" << '|';

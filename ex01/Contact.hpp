@@ -14,8 +14,8 @@ private:
 	std::string	phone_number;
 	std::string	darkest_secret;
 public:
-	Contact(){};
-	~Contact(){};
+	Contact();
+	~Contact();
 	void	add();
 	void	show_all(int i);
 	void	display();

@@ -8,8 +8,8 @@ private:
 	Contact contact[8];
 	int		idx;
 public:
-	PhoneBook(){};
-	~PhoneBook(){};
+	PhoneBook();
+	~PhoneBook();
 	void	show_all();
 	void	search();
 	void	add();

@@ -29,8 +29,6 @@ fclean: clean
 	@$(RM) -r $(NAME)
 	@echo "${YELLOW}> Cleaning of the megaphone has been done.❌${END}"
 
-re: fclean
-	@$(MAKE)
-	@echo "$(GREEN)Cleaned and rebuilt everything for megaphone!${END}"
+re: fclean all
 
-.PHONY: all clean fclean re mkdir
+.PHONY: all clean fclean re
