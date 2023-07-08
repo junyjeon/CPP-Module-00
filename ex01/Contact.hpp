@@ -17,8 +17,6 @@ public:
 	Contact(){};
 	~Contact(){};
 	void	add();
-	void	search();
-	void	tell(std::string *dest);
 	void	show_all(int i);
 	void	display();
 };

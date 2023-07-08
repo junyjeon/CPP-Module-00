@@ -1,6 +1,6 @@
 #include "PhoneBook.hpp"
 
-void	PhoneBook::show_all(){
+void	PhoneBook::show_all() {
 	std::cout << std::right;
 	std::cout << std::setw(10) << "index" << '|';
 	std::cout << std::setw(10) << "first name" << '|';
@@ -11,7 +11,7 @@ void	PhoneBook::show_all(){
 		this->contact[i].show_all(i);
 }
 
-void	PhoneBook::search(){
+void	PhoneBook::search() {
 	this->show_all();
 	std::cout << "Enter: The index of the entry to display" << std::endl;
 	std::string str;
@@ -24,9 +24,9 @@ void	PhoneBook::search(){
 		std::cout << "Input error: invalid input" << std::endl;
 }
 
-void	PhoneBook::add(){
-	this->contact[idx % 8].add();
-	this->idx++;
+void	PhoneBook::add() {
+	contact[idx % 8].add();
+	idx++;
 }
 
 int    main(void)
