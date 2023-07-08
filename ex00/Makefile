@@ -7,7 +7,7 @@ CFLAGS		+=	-fsanitize=address
 BUILD_DIR	=	bulid
 
 SRC		=	MegaPhone.cpp
-OBJ		=	$(patsubst %.c, $(BUILD_DIR)/%.o, $(SRC))
+OBJ		=	$(patsubst %.cpp, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)
 
@@ -15,10 +15,10 @@ $(NAME): $(OBJ)
 	@$(CC) $(CFLAGS) -o $@ $^
 	@echo "$(GREEN)SUCCESS!$(END)"
 
-$(BUILD_DIR)/%.o: %.c | mkdir
+$(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
 
-mkdir:
+$(BUILD_DIR):
 	@mkdir -p $(BUILD_DIR)
 
 clean:
