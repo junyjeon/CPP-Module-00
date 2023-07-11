@@ -1,8 +1,8 @@
 NAME		=	megaphone
 
 CC			=	clang++
-CFLAGS		=	-Wall -Wextra -Werror -std=c++98
-CFLAGS		+=	-fsanitize=address
+CFLAGS		=	-std=c++98 -Wall -Wextra -Werror
+# CFLAGS		+=	-fsanitize=address
 
 BUILD_DIR	=	bulid
 

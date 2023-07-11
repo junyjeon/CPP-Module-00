@@ -2,7 +2,7 @@ NAME		=	PhoneBook
 
 CC			=	clang++
 CFLAGS		=	-std=c++98 -Wall -Wextra -Werror
-CFLAGS		+=	-fsanitize=address -g
+# CFLAGS		+=	-fsanitize=address -g
 
 INC_DIR		=	.
 
