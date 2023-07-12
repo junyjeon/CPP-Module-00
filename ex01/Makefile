@@ -2,13 +2,13 @@ NAME		=	PhoneBook
 
 CC			=	clang++
 CFLAGS		=	-std=c++98 -Wall -Wextra -Werror
-# CFLAGS		+=	-fsanitize=address -g
+CFLAGS		+=	-fsanitize=address -g3
 
 INC_DIR		=	.
 
 BUILD_DIR	=	build
 
-SRC		=	PhoneBook.cpp Contact.cpp
+SRC		=	main.cpp PhoneBook.cpp Contact.cpp
 OBJ		=	$(patsubst %.cpp, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)

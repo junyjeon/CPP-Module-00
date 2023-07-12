@@ -17,8 +17,9 @@ public:
 	Contact();
 	~Contact();
 	void	add();
-	void	show_all(int i);
-	void	display();
+	void	show_record(int i);
+	void	tell(std::string *str);
+	void	display(int i);
 };
 
 #endif
