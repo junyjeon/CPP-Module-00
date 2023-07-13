@@ -5,7 +5,7 @@ int    main(void)
 	PhoneBook	pb;
 	std::string cmd;
 
-    while (!std::cin.eof()) {
+    while (!std::cin.eof() || !std::cin.fail()) {
 		std::cout << "Enter the command: ";
         std::getline(std::cin, cmd);
         if (cmd.compare("EXIT") == 0)

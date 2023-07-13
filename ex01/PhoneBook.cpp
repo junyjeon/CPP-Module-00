@@ -6,10 +6,10 @@ PhoneBook::~PhoneBook() {}
 
 void	PhoneBook::show_all() {
 	std::cout << std::right;
-	std::cout << std::setw(10) << "index|";
-	std::cout << std::setw(10) << "first name|";
-	std::cout << std::setw(10) << "last name|";
-	std::cout << std::setw(10) << "nickname|" << std::endl;
+	std::cout << std::setw(10) << "index" << '|';
+	std::cout << std::setw(10) << "first name" << '|';
+	std::cout << std::setw(10) << "last name" << '|';
+	std::cout << std::setw(10) << "nickname" << '|' << std::endl;
 	int i = -1;
 	while (++i < 8)
 		contact[i].show_record(i);
