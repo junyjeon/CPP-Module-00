@@ -7,10 +7,10 @@ class PhoneBook{
 private:
 	Contact contact[8];
 	int		idx;
+	void	show_all();
 public:
 	PhoneBook();
 	~PhoneBook();
-	void	show_all();
 	void	search();
 	void	add();
 };

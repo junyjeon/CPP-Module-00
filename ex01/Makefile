@@ -1,8 +1,8 @@
 NAME		=	PhoneBook
 
-CC			=	clang++
-CFLAGS		=	-std=c++98 -Wall -Wextra -Werror
-CFLAGS		+=	-fsanitize=address -g3
+CXX			=	c++
+CXXFLAGS	=	-Wall -Wextra -Werror -std=c++98 
+# CXXFLAGS		+=	-fsanitize=address -g2
 
 INC_DIR		=	.
 
@@ -14,18 +14,17 @@ OBJ		=	$(patsubst %.cpp, $(BUILD_DIR)/%.o, $(SRC))
 all:	$(NAME)
 
 $(NAME): $(OBJ)
-	@$(CC) $(CFLAGS) -I$(INC_DIR) -o $@ $^
+	@$(CXX) $(CXXFLAGS) -I$(INC_DIR) -o $@ $^
 	@echo "$(GREEN)SUCCESS!$(END)"
 
 $(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)
-	@$(CC) $(CFLAGS) -c $< -o $@
+	@$(CXX) $(CXXFLAGS) -c $< -o $@
 
 $(BUILD_DIR):
 	@mkdir -p $(BUILD_DIR)
 
 clean:
 	@$(RM) -r $(BUILD_DIR)
-	@echo "${YELLOW}> All objects files of the phonebook have been deleted.❌${END}"
 
 fclean: clean
 	@$(RM) $(NAME)
@@ -34,3 +33,6 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re
+
+Yellow : \033[0;33m
+Green  : \033[0;32m

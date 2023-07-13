@@ -6,10 +6,10 @@ PhoneBook::~PhoneBook() {}
 
 void	PhoneBook::show_all() {
 	std::cout << std::right;
-	std::cout << std::setw(10) << "index" << '|';
-	std::cout << std::setw(10) << "first name" << '|';
-	std::cout << std::setw(10) << "last name" << '|';
-	std::cout << std::setw(10) << "nickname" << '|' << std::endl;
+	std::cout << std::setw(10) << "index|";
+	std::cout << std::setw(10) << "first name|";
+	std::cout << std::setw(10) << "last name|";
+	std::cout << std::setw(10) << "nickname|" << std::endl;
 	int i = -1;
 	while (++i < 8)
 		contact[i].show_record(i);
@@ -23,7 +23,7 @@ void	PhoneBook::search() {
 	std::getline(std::cin, str);
 	i = atoi(str.c_str());
 	if (1 <= i && i <= 8)
-		contact[i - 1].display(i);
+		contact[i - 1].display();
 	else
 		std::cout << "Input error: invalid input" << std::endl;
 }

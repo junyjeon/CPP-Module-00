@@ -5,6 +5,7 @@
 # include <string>
 # include <iomanip>
 # include <cstdlib>
+# include <signal.h>
 
 class Contact{
 private:
@@ -13,13 +14,13 @@ private:
 	std::string	nick_name;
 	std::string	phone_number;
 	std::string	darkest_secret;
+	void	tell(std::string *str);
 public:
 	Contact();
 	~Contact();
 	void	add();
+	void	display();
 	void	show_record(int i);
-	void	tell(std::string *str);
-	void	display(int i);
 };
 
 #endif

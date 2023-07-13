@@ -6,7 +6,7 @@ int    main(void)
 	std::string cmd;
 
     while (!std::cin.eof()) {
-		std::cout << "Enter the command: " << std::endl;
+		std::cout << "Enter the command: ";
         std::getline(std::cin, cmd);
         if (cmd.compare("EXIT") == 0)
 			break ;
