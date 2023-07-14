@@ -42,6 +42,5 @@ void	Contact::add() {
 	std::cout << "nick_name: "; tell(&nick_name);
 	std::cout << "phone_number: "; tell(&phone_number);
 	std::cout << "darkest_secret: "; tell(&darkest_secret);
-	a
 }
 
