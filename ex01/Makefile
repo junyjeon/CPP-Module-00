@@ -8,8 +8,8 @@ INC_DIR		=	.
 
 BUILD_DIR	=	build
 
-SRC		=	main.cpp PhoneBook.cpp Contact.cpp
-OBJ		=	$(patsubst %.cpp, $(BUILD_DIR)/%.o, $(SRC))
+SRC			=	main.cpp PhoneBook.cpp Contact.cpp
+OBJ			=	$(patsubst %.cpp, $(BUILD_DIR)/%.o, $(SRC))
 
 all:	$(NAME)
 
