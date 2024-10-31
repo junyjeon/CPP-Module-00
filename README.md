@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/12_cpp_module_00_review.jpg" alt="CPP Module 00 Review" width="800"/>
   
-  [![42 Score](https://img.shields.io/badge/Score-100%2F100-success?style=for-the-badge&logo=42)](https://github.com/your-username/CPP-Module-00)
+  [![42 Score](https://img.shields.io/badge/Score-80%2F100-success?style=for-the-badge&logo=42)](https://github.com/your-username/CPP-Module-00)
 </div>
 
 ## Table of Contents
