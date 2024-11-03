@@ -1,10 +1,20 @@
-# CPP Module 00
-
 <div align="center">
+  <h1>💻 CPP Module 00</h1>
+  <p>C++ 기초 학습 | 네임스페이스, 클래스, 멤버함수, 입출력 스트림</p>
+
   <img src="assets/12_cpp_module_00_review.jpg" alt="CPP Module 00 Review" width="800"/>
   
-  [![42 Score](https://img.shields.io/badge/Score-80%2F100-success?style=for-the-badge&logo=42)](https://github.com/junyjeon/CPP-Module-00)
-  [![C++](https://img.shields.io/badge/C++-98-blue.svg?style=for-the-badge&logo=c%2B%2B)](https://github.com/junyjeon/CPP-Module-00)
+  <div>
+    <img src="https://img.shields.io/badge/Score-80%2F100-success?style=flat-square&logo=42" alt="42 Score"/>
+    <img src="https://img.shields.io/badge/Language-C++98-00599C?style=flat-square&logo=c%2B%2B" alt="Language"/>
+  </div>
+
+  ### 학습 내용
+  - C++ 기본 문법과 구조
+  - 클래스와 객체 지향 프로그래밍
+  - 네임스페이스와 스코프
+  - iostream을 이용한 입출력
+  - 클래스 멤버 함수와 접근 제어
 </div>
 
 ## 목차
@@ -23,19 +33,6 @@
 
 ### 🗣️ 개요
 C++의 기본 문법과 클래스를 학습하는 첫 번째 C++ 모듈입니다.
-
-• 학습 목표
-  - C++의 기본 문법과 특징 이해
-  - 객체지향 프로그래밍의 기초 습득
-  - 클래스와 객체의 개념 파악
-  - 메모리 관리와 범위의 이해
-
-• 주요 개념
-  - 네임스페이스와 스코프
-  - 클래스와 멤버 함수
-  - 접근 제어와 캡슐화
-  - 정적 멤버와 인스턴스 멤버
-  - 입출력 스트림
 
 ### 요구사항
 • 컴파일러
