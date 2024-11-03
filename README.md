@@ -3,24 +3,25 @@
 <div align="center">
   <img src="assets/12_cpp_module_00_review.jpg" alt="CPP Module 00 Review" width="800"/>
   
-  [![42 Score](https://img.shields.io/badge/Score-80%2F100-success?style=for-the-badge&logo=42)](https://github.com/your-username/CPP-Module-00)
+  [![42 Score](https://img.shields.io/badge/Score-80%2F100-success?style=for-the-badge&logo=42)](https://github.com/junyjeon/CPP-Module-00)
+  [![C++](https://img.shields.io/badge/C++-98-blue.svg?style=for-the-badge&logo=c%2B%2B)](https://github.com/junyjeon/CPP-Module-00)
 </div>
 
-## Table of Contents
-- [About](#about)
-- [Requirements](#requirements)
-- [Implementation](#implementation)
+## 목차
+- [개요](#개요)
+- [요구사항](#요구사항)
+- [구현](#구현)
   - [ex00: Megaphone](#ex00-megaphone)
   - [ex01: My Awesome PhoneBook](#ex01-my-awesome-phonebook)
   - [ex02: The Job Of Your Dreams](#ex02-the-job-of-your-dreams)
-- [Usage](#usage)
-- [Testing & Debug](#testing--debug)
-- [Additional Information](#additional-information)
+- [사용법](#사용법)
+- [테스트 & 디버그](#테스트--디버그)
+- [추가 정보](#추가-정보)
   - [C++98 특징](#c98-특징)
   - [클래스 vs 구조체](#클래스-vs-구조체)
-- [Reference](#reference)
+- [참고 자료](#참고-자료)
 
-### 🗣️ About
+### 🗣️ 개요
 C++의 기본 문법과 클래스를 학습하는 첫 번째 C++ 모듈입니다.
 
 • 학습 목표
@@ -36,7 +37,7 @@ C++의 기본 문법과 클래스를 학습하는 첫 번째 C++ 모듈입니다
   - 정적 멤버와 인스턴스 멤버
   - 입출력 스트림
 
-### Requirements
+### 요구사항
 • 컴파일러
   - c++ (clang++)
   - -Wall -Wextra -Werror
@@ -48,7 +49,7 @@ C++의 기본 문법과 클래스를 학습하는 첫 번째 C++ 모듈입니다
   - printf 대신 cout 사용
   - 전역 변수 사용 금지
 
-### Implementation
+### 구현
 #### ex00: Megaphone
 • 요구사항
   - 입력된 문자열을 대문자로 변환
@@ -457,7 +458,7 @@ int main(void)
    - 공유 데이터 관리
    - 전역 상태 관리
 
-### Usage
+### 사용법
 • 컴파일
 ```bash
 # ex00
@@ -657,7 +658,7 @@ std::cout << std::setw(10) << "test";
 std::cout << std::setw(10) << "next";
 ```
 
-### Additional Information
+### 추가 정보
 #### C++98 특징
 • 기본 문법
 ```cpp
@@ -745,16 +746,14 @@ public:
    - 상속을 사용할 경우
    - 복잡한 객체 구현
 
-### Reference
+### 참고 자료
 > 공식 문서가 최고다.
 
 • C++ 기초 문법
   - [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/)
     - C++ 기초 문법과 개념 설명
-    - 예제 코드 포함
   - [C++ Reference](https://en.cppreference.com/w/cpp)
     - C++98 표준 레퍼런스
-    - 함수와 클래스 상세 설명
 
 • 객체지향 프로그래밍
   - [Object Oriented Programming in C++](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
@@ -762,33 +761,27 @@ public:
     - 상속, 다형성, 캡슐화 설명
   - [Classes and Objects](https://www.learncpp.com/cpp-tutorial/classes-and-class-members/)
     - 클래스 멤버 변수와 함수
-    - 접근 제어와 캡슐화
 
 • 입출력과 문자열
   - [C++ String Class](http://www.cplusplus.com/reference/string/string/)
     - string 클래스 사용법
-    - 문자열 처리 함수들
   - [Input/Output with Files](http://www.cplusplus.com/doc/tutorial/files/)
     - 파일 입출력
-    - 스트림 조작
+    - 스트림(stream) 조작
 
 • 코딩 스타일과 컨벤션
   - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
     - 구글의 C++ 코딩 스타일
-    - 네이밍과 포맷팅 규칙
   - [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
     - 모던 C++ 가이드라인
-    - 좋은 코딩 습관
 
-• 유용한 도구
+• 도구
   - [C++ Shell](http://cpp.sh/)
     - 온라인 C++ 컴파일러
-    - 코드 테스트용
   - [Quick C++ Benchmark](http://quick-bench.com/)
-    - 성능 측정
-    - 코드 최적화 테스트
+    - 벤치마크
 
-• 추천 학습 자료
+• 다른 학습 자료
   - [C++ Primer (5th Edition)](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
   - [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876)
   - [C++ FAQ](https://isocpp.org/faq)
